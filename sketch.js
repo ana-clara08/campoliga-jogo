@@ -90,29 +90,29 @@ let mostrarFim = false;
 
 function preload() {
   try {
-    imgColegio = loadImage('Colégio.jpg');
-    imgAgrinho = loadImage('AGRINHO.jpg');
-    imgCity = loadImage('CITY.jpg');
-    imgFeira = loadImage('FEIRA.jpg');
-    imgMaria = loadImage('maria.png');
-    imgJoaquim = loadImage('joaquim.png');
-    imgGarrafa = loadImage('garrafa.png');
-    imgCasca = loadImage('casca.png');
-    imgCesto = loadImage('cesto.png');
-    imgMariaCaminhao = loadImage('marianocaminhão.png');
-    imgCampo1 = loadImage('campo1.png');
-    imgCampoPost = loadImage('campo1(PostparaInstagram).png');
-    imgPapel = loadImage('papel.png');
-    imgCaminho = loadImage('caminho.png');
-    imgVas = loadImage('vas.png');
-    imgVerd = loadImage('verdura.png');
+    imgColegio = loadImage('assets/Colégio.jpg');
+    imgAgrinho = loadImage('assets/AGRINHO.jpg');
+    imgCity = loadImage('assets/CITY.jpg');
+    imgFeira = loadImage('assets/FEIRA.jpg');
+    imgMaria = loadImage('assets/maria.png');
+    imgJoaquim = loadImage('assets/joaquim.png');
+    imgGarrafa = loadImage('assets/garrafa.png');
+    imgCasca = loadImage('assets/casca.png');
+    imgCesto = loadImage('assets/cesto.png');
+    imgMariaCaminhao = loadImage('assets/marianocaminhão.png');
+    imgCampo1 = loadImage('assets/campo1.png');
+    imgCampoPost = loadImage('assets/campo1(PostparaInstagram).png');
+    imgPapel = loadImage('assets/papel.png');
+    imgCaminho = loadImage('assets/caminho.png');
+    imgVas = loadImage('assets/vas.png');
+    imgVerd = loadImage('assets/verdura.png');
     
     // Carrega os sons
-    musicaCampoliga = loadSound('campoliga.mp3');
-    somCaminhao = loadSound('car.mp3');
-    somFestejando = loadSound('Cone.mp3');
+    musicaCampoliga = loadSound('assets/campoliga.mp3');
+    somCaminhao = loadSound('assets/car.mp3');
+    somFestejando = loadSound('assets/Cone.mp3');
 
-    videoCampo = createVideo(['campo2.mp4', 'campo2.webm'], () => {
+    videoCampo = createVideo(['assets/campo2.mp4', 'campo2.webm'], () => {
       videoCarregado = true;
     });
 
