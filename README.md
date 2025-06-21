@@ -2,7 +2,7 @@
 Jogo cooperativo onde você recicla lixo urbano, leva para o campo e colhe alimentos. Mostra a importância da sustentabilidade e união entre cidade e campo. Divirta-se aprendendo!
 # 🚜 Agrinho: Campoliga Cresce com Você
 
-Jogo educativo desenvolvido em **JavaScript com p5.js** para o Agrinho 2023, tema *"Festejando a conexão campo-cidade"*.
+Jogo educativo desenvolvido em **JavaScript com p5.js** para o Agrinho 2025, tema *"Festejando a conexão campo-cidade"*.
 
 ## 🎮 Como Jogar
 - Colete garrafas PET na cidade (use o mouse)
